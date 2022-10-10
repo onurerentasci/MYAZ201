@@ -1,0 +1,11 @@
+p {
+  padding: 10px;
+  background-color: violet;
+  border: 3px solid blue;
+}
+p:hover {
+  background-color: slateblue;
+  color: white;
+  border-color: blueviolet;
+  cursor: pointer;
+}
