@@ -5,9 +5,15 @@ export default function Counter() {
 
   const handleIncrease = () => {
     setNumber(number + 1);
+    if (number >= 10) {
+      setNumber(0);
+    }
   };
   const handleDecrease = () => {
     setNumber(number - 1);
+    if (number <= 0) {
+      setNumber(0);
+    }
   };
 
   return (
